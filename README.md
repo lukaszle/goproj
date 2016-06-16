@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Installation
 
 1. Install Go 1.4.x or greater, git, setup `$GOPATH`, and `PATH=$PATH:$GOPATH/bin`
@@ -49,3 +50,6 @@ There are two potential gotchas you need to know when running in Vagrant:
 ```
 GOPATH=/go DSN=postgres://$(whoami)@$(netstat -rn | grep "^0.0.0.0 " | cut -d " " -f10):5432/$PROJECT_NAME?sslmode=disable go run main.go
 ```
+=======
+# goproj
+>>>>>>> 4b773b7efcbf763b7a8f9f848c12bccfcd0b61b7
